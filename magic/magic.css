@@ -1,0 +1,20 @@
+/*
+
+                                   _____                _
+/'\_/`\               _           (_   _)     _        ( )
+|     |   _ _    __  (_)   ___      | | _ __ (_)   ___ | |/')
+| (_) | /'_` ) /'_ `\| | /'___)     | |( '__)| | /'___)| , <
+| | | |( (_| |( (_) || |( (___      | || |   | |( (___ | |\`\
+(_) (_)`\__,_)`\__  |(_)`\____)     (_)(_)   (_)`\____)(_) (_)
+              ( )_) |
+               \___/'
+
+*/
+
+body { text-align: center; font-family: "Helvetica Neue", Arial, sans-serif; color: #444; }
+h1 { text-align: center; font-weight: normal;  }
+
+.row { max-width: 90%; width: 1200px; margin: 0 auto; }
+.large-3 { width: 25%; float: left; }
+
+.rank { font-size: 112px; color: #333; }

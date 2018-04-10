@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <!-- SharpSpring Form for Persona Form  -->
+<script type="text/javascript">
+    //This function grabs the cookies based on name value pairs
+    function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+    }
+    //Runs the function based on your desired cookie you'd like to grab.
+    var value = readCookie('__ss_tk');
+    //This is all standard SharpSpring form script
+    var ss_form = {'account': 'MzawMDG1NDMzBAA', 'formID': 'MzSzNLIwSTbXTTJINdI1STFK1k00MUnWTTZOTU02MLQwNUs0AgA'};
+    ss_form.width = '100%';
+    ss_form.height = '1000';
+    ss_form.domain = 'app-3QN9WGW1EU.marketingautomation.services';
+    //Passes the value into a field from SharpSpring.
+    ss_form.hidden = {'field_2156497923': value};
+</script>
+<script type="text/javascript" src="https://koi-3QN9WGW1EU.marketingautomation.services/client/form.js?ver=1.1.1"></script>
+</body>
+</html>

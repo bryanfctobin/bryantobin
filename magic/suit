@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Magic Trick - Choose A Suit</title>
+
+    <link rel="stylesheet" href="magic.css" />
+    <!-- Begin SharpSpring Tracking Script -->
+    <script type="text/javascript">
+var _ss = _ss || [];
+_ss.push(['_setDomain', 'https://koi-3QKH0X1U88.marketingautomation.services/net']);
+_ss.push(['_setAccount', 'KOI-3R4OMFSKZS']);
+_ss.push(['_trackPageView']);
+(function() {
+    var ss = document.createElement('script');
+    ss.type = 'text/javascript'; ss.async = true;
+
+    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-3QKH0X1U88.marketingautomation.services/client/ss.js?ver=1.1.1';
+    var scr = document.getElementsByTagName('script')[0];
+    scr.parentNode.insertBefore(ss, scr);
+})();
+</script>
+<!-- End SharpSpring Tracking Script -->
+</head>
+<body>
+
+    <div class="row">
+        <div class="large-12 columns headers">
+            <h1>Choose A Suit</h1>
+        </div>
+    </div>
+
+    <!-- BODY -->
+    <div class="row">
+        <div class="large-3 columns" style="text-align:center;">
+            <a href="rank?suit=diamond" style="text-decoration: none !important;"><img src="images/diamond.gif"></a>
+        </div>
+        <div class="large-3 columns" style="text-align:center;">
+            <a href="rank?suit=club" style="text-decoration: none !important;"><img src="images/club.gif"></a>
+        </div>
+        <div class="large-3 columns" style="text-align:center;">
+            <a href="rank?suit=heart" style="text-decoration: none !important;"><img src="images/heart.gif"></a>
+        </div>
+        <div class="large-3 columns" style="text-align:center;">
+            <a href="rank?suit=spade" style="text-decoration: none !important;"><img src="images/spade.gif"></a>
+        </div>
+    </div>
+
+    <!-- INSERT SHARPSPRING TRACKING CODE HERE -->
+
+</body>
+</html>
