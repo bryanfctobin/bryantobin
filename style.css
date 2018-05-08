@@ -1,5 +1,39 @@
+body {
+    background-color:#A6E4E7;
+}
 img {
     display: block;
     margin: 0 auto;
     padding-top:5%;
+}
+.mainText {
+    padding-top: 15%;
+    font-size:125px;
+    text-transform: uppercase;
+    color:white;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 8px;
+    cursor:pointer;
+    transition: 5s ease;
+}
+.mainText a {
+    text-decoration:none;
+    color:white;
+    transition: 5s ease;
+}
+.mainText a:hover {
+    color:silver;
+    text-shadow: 5px;
+    font-size:150px;
+}
+@media screen and (max-width:600px) {
+    .mainText {
+        padding-top: 8%;
+    }
+    .mainText a {
+        font-size:100px;
+    }
+    .mainText a:hover {
+        font-size:100px;
+    }
 }

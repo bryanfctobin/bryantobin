@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friendly Neighborhood</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -15,7 +17,10 @@
 </head>
 <body>
     <div id="main">
-        <a v-bind:href="link" target="_blank"><img v-bind:src="image" class="img-responsive"></a>
+        <!--<a v-bind:href="link" target="_blank"><img v-bind:src="image" class="img-responsive"></a>-->
+        <div class="mainText text-center">
+            <div><a v-bind:href="link" target="_blank">{{ textOne }}</a></div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
