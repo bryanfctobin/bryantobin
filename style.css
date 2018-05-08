@@ -1,3 +1,6 @@
+* {
+    cursor: url(/content/bryan-face-very-small.png), auto;
+}
 body {
     background-color:#A6E4E7;
 }
@@ -13,22 +16,21 @@ img {
     color:white;
     font-family: 'Anton', sans-serif;
     letter-spacing: 8px;
-    cursor:pointer;
-    transition: 5s ease;
+    transition: 2s ease;
 }
 .mainText a {
     text-decoration:none;
     color:white;
-    transition: 5s ease;
+    transition: 2s ease;
+    cursor: pointer;
 }
 .mainText a:hover {
-    color:silver;
     text-shadow: 5px;
-    font-size:150px;
+    font-size:130px;
 }
 @media screen and (max-width:600px) {
     .mainText {
-        padding-top: 8%;
+        padding-top: 2%;
     }
     .mainText a {
         font-size:100px;
