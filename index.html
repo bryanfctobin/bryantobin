@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friendly Neighborhood</title>
+    <meta description="Be brave and be kind.">
+    <title>Attitude &amp; Effort</title>
     <!-- Sets Favicon -->
     <link rel="shortcut icon" type="image/png" href="/content/bryan-face-fav.png"/>
     <!-- Google Fonts -->
@@ -21,7 +22,7 @@
     <div id="main">
         <!--<a v-bind:href="link" target="_blank"><img v-bind:src="image" class="img-responsive"></a>-->
         <div class="mainText text-center">
-            <div><a v-bind:href="link" target="_blank">{{ textOne }}</a></div>
+                <div onmouseover="changeBG()" onmouseout="changeBG()"><a v-bind:href="link" target="_blank">{{ textOne }}</a></div>
         </div>
     </div>
     <script src="script.js"></script>

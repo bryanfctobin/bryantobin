@@ -1,13 +1,11 @@
-* {
-    cursor: url(/content/bryan-face-very-small.png), auto;
-}
 body {
     background-color:#A6E4E7;
+    transition:5s ease;
 }
 img {
     display: block;
     margin: 0 auto;
-    padding-top:5%;
+    padding: 5% 2% 0 2%;
 }
 .mainText {
     padding-top: 15%;
