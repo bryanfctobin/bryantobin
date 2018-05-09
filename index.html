@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta description="Be brave and be kind.">
-    <title>Attitude &amp; Effort</title>
+    <title>Hi, this is Bryan</title>
     <!-- Sets Favicon -->
     <link rel="shortcut icon" type="image/png" href="/content/bryan-face-fav.png"/>
     <!-- Google Fonts -->
@@ -22,7 +22,9 @@
     <div id="main">
         <!--<a v-bind:href="link" target="_blank"><img v-bind:src="image" class="img-responsive"></a>-->
         <div class="mainText text-center">
-                <div onmouseover="changeBG()" onmouseout="changeBG()"><a v-bind:href="link" target="_blank">{{ textOne }}</a></div>
+                <div><a v-bind:href="link" target="_blank">{{ textOne }}</a></div>
+                <!-- Below will trigger on mouseover/mouseout.  Changed as I just made the function run every 5 seconds -->
+                <!--<div onmouseover="changeBG()" onmouseout="changeBG()"><a v-bind:href="link" target="_blank">{{ textOne }}</a></div>-->
         </div>
     </div>
     <script src="script.js"></script>

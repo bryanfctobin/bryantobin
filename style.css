@@ -8,7 +8,7 @@ img {
     padding: 5% 2% 0 2%;
 }
 .mainText {
-    padding-top: 15%;
+    padding: 15% 2% 0 2%;
     font-size:125px;
     text-transform: uppercase;
     color:white;
@@ -28,7 +28,8 @@ img {
 }
 @media screen and (max-width:600px) {
     .mainText {
-        padding-top: 2%;
+        padding: 2% 2% 0 2%;
+        line-height: 1.1em;
     }
     .mainText a {
         font-size:100px;
